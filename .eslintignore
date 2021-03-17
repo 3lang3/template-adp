@@ -1,0 +1,10 @@
+/lambda/
+/scripts
+/config
+/tests
+.history
+public
+dist
+.umi
+mock
+.*.js
