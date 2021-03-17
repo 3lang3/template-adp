@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@ahooksjs/use-request@^2.0.0":
+"@ahooksjs/use-request@^2.0.0", "@ahooksjs/use-request@^2.8.3":
   version "2.8.3"
   resolved "https://registry.npm.taobao.org/@ahooksjs/use-request/download/@ahooksjs/use-request-2.8.3.tgz#9b7eff972658497473f61ceb89a268d665e28aeb"
   integrity sha1-m37/lyZYSXRz9hzriaJo1mXiius=
@@ -2497,6 +2497,11 @@
     jest-diff "^26.0.0"
     pretty-format "^26.0.0"
 
+"@types/js-cookie@^2.2.6":
+  version "2.2.6"
+  resolved "https://registry.npm.taobao.org/@types/js-cookie/download/@types/js-cookie-2.2.6.tgz#f1a1cb35aff47bc5cfb05cb0c441ca91e914c26f"
+  integrity sha1-8aHLNa/0e8XPsFywxEHKkekUwm8=
+
 "@types/json-schema@^7.0.3":
   version "7.0.7"
   resolved "https://registry.npm.taobao.org/@types/json-schema/download/@types/json-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
@@ -3788,6 +3793,22 @@ aggregate-error@^3.0.0:
   dependencies:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
+
+ahooks@^2.9.6:
+  version "2.9.6"
+  resolved "https://registry.npm.taobao.org/ahooks/download/ahooks-2.9.6.tgz#afde34cc7af722da1c724fddf75c9191672ac2f5"
+  integrity sha1-r940zHr3Itocck/d91yRkWcqwvU=
+  dependencies:
+    "@ahooksjs/use-request" "^2.8.3"
+    "@types/js-cookie" "^2.2.6"
+    dayjs "^1.9.1"
+    intersection-observer "^0.7.0"
+    js-cookie "^2.2.1"
+    lodash.debounce "^4.0.8"
+    lodash.isequal "^4.5.0"
+    lodash.throttle "^4.1.1"
+    resize-observer-polyfill "^1.5.1"
+    screenfull "^5.0.0"
 
 ajv-errors@^1.0.0:
   version "1.0.1"
@@ -5859,7 +5880,7 @@ date-format@^0.0.0:
   resolved "https://registry.npm.taobao.org/date-format/download/date-format-0.0.0.tgz#09206863ab070eb459acea5542cbd856b11966b3"
   integrity sha1-CSBoY6sHDrRZrOpVQsvYVrEZZrM=
 
-dayjs@^1.10.3:
+dayjs@^1.10.3, dayjs@^1.9.1:
   version "1.10.4"
   resolved "https://registry.npm.taobao.org/dayjs/download/dayjs-1.10.4.tgz?cache=0&sync_timestamp=1611309982734&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdayjs%2Fdownload%2Fdayjs-1.10.4.tgz#8e544a9b8683f61783f570980a8a80eaf54ab1e2"
   integrity sha1-jlRKm4aD9heD9XCYCoqA6vVKseI=
@@ -8729,6 +8750,11 @@ internal-slot@^1.0.3:
     has "^1.0.3"
     side-channel "^1.0.4"
 
+intersection-observer@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.npm.taobao.org/intersection-observer/download/intersection-observer-0.7.0.tgz#ee16bee978db53516ead2f0a8154b09b400bbdc9"
+  integrity sha1-7ha+6XjbU1FurS8KgVSwm0ALvck=
+
 intl-format-cache@^4.2.21:
   version "4.3.1"
   resolved "https://registry.npm.taobao.org/intl-format-cache/download/intl-format-cache-4.3.1.tgz#484d31a9872161e6c02139349b259a6229ade377"
@@ -9782,6 +9808,11 @@ jest@^25.4.0:
     "@jest/core" "^25.5.4"
     import-local "^3.0.2"
     jest-cli "^25.5.4"
+
+js-cookie@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/js-cookie/download/js-cookie-2.2.1.tgz#69e106dc5d5806894562902aa5baec3744e9b2b8"
+  integrity sha1-aeEG3F1YBolFYpAqpbrsN0Tpsrg=
 
 js-file-download@^0.4.12:
   version "0.4.12"
@@ -14747,6 +14778,11 @@ schema-utils@^1.0.0:
     ajv "^6.1.0"
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
+
+screenfull@^5.0.0:
+  version "5.1.0"
+  resolved "https://registry.npm.taobao.org/screenfull/download/screenfull-5.1.0.tgz#85c13c70f4ead4c1b8a935c70010dfdcd2c0e5c8"
+  integrity sha1-hcE8cPTq1MG4qTXHABDf3NLA5cg=
 
 scroll-into-view-if-needed@^2.2.25:
   version "2.2.27"
